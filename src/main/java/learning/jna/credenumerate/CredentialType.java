@@ -3,7 +3,7 @@ package learning.jna.credenumerate;
 import java.util.HashMap;
 import java.util.Map;
 
-enum CredentialType {
+public enum CredentialType {
 	CRED_TYPE_GENERIC(1),
 	CRED_TYPE_DOMAIN_PASSWORD(2),
 	CRED_TYPE_DOMAIN_CERTIFICATE(3),
